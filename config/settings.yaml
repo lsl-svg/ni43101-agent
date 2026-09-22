@@ -1,0 +1,33 @@
+# NI 43-101 抽取 Agent —— 运行配置
+# 所有阈值集中在此，禁止硬编码到业务代码中
+
+run:
+  max_rounds: 3            # Revise Loop 最大迭代轮数（设计要求 <= 3）
+  pass_score: 8.0          # CriticMaster 评分 >= 8 才放行
+  consistency_tol: 0.05    # 金属量 vs 吨位 x 品位 的一致性与评分容差（+/-5%）
+  max_missing_ratio: 0.25  # 关键字段缺失比例超过该值 -> 直接 abstain
+  out_dir: out
+  evolution_log: out/evolution.jsonl
+  few_shot_k: 2            # 从 Evolution Log 中挑多少条历史失败样例做 few-shot
+
+# 三个模型分工：抽取用强模型，批判用异构模型（不同厂商，降低同源盲区）
+models:
+  extractor:
+    provider: openai
+    model: gpt-4o
+    temperature: 0.0
+  critic:
+    provider: zhipu
+    model: glm-4-plus
+    temperature: 0.0
+  reviser:
+    provider: deepseek
+    model: deepseek-chat
+    temperature: 0.0
+
+paths:
+  pdf_dir: data/pdfs
+  text_dir: data/txt        # 可选：无 PDF 解析库时放置同名 .txt 侧车文件
+  gt_dir: data/ground_truth
+  mock_dir: data/mock
+  prompts_dir: prompts

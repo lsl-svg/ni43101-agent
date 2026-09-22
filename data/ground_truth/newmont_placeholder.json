@@ -1,0 +1,29 @@
+{
+  "report_id": "newmont_placeholder",
+  "company": "Newmont (placeholder)",
+  "project": "Ahafo South (placeholder)",
+  "_comment": "演示用占位 GT：Inferred 品位/金属量在提供的节选中不可确定，因此不参与准确率分母，只用于评估 abstain 行为",
+  "expect_abstain": true,
+  "unresolvable_fields": [
+    "inferred.grade_value",
+    "inferred.contained_t"
+  ],
+  "rows": [
+    {
+      "category": "indicated",
+      "commodity": "Au",
+      "tonnage_mt": 120.5,
+      "grade_value": 1.15,
+      "grade_unit": "g/t",
+      "contained_t": 138.41
+    },
+    {
+      "category": "inferred",
+      "commodity": "Au",
+      "tonnage_mt": 35.2,
+      "grade_value": null,
+      "grade_unit": null,
+      "contained_t": null
+    }
+  ]
+}

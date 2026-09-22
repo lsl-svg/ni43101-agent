@@ -1,0 +1,34 @@
+{
+  "report_id": "newmont_placeholder",
+  "company": "Newmont (placeholder)",
+  "project": "Ahafo South (placeholder)",
+  "_comment": "演示用占位夹具：Inferred 行在提供的节选中被截断，因此 GT 标注 expect_abstain，考的是系统会不会硬给",
+  "rows": [
+    {
+      "category": "Indicated",
+      "commodity": "Au",
+      "tonnage_value": 120.5,
+      "tonnage_unit": "Mt",
+      "grade_value": 1.15,
+      "grade_unit": "g/t",
+      "contained_value": 4.45,
+      "contained_unit": "Moz",
+      "page": 88,
+      "quote": "Indicated 120.5 1.15 4.45",
+      "confidence": 0.9
+    },
+    {
+      "category": "Inferred",
+      "commodity": "Au",
+      "tonnage_value": 35.2,
+      "tonnage_unit": "Mt",
+      "grade_value": 1.05,
+      "grade_unit": "g/t",
+      "contained_value": 1.19,
+      "contained_unit": "Moz",
+      "page": 88,
+      "quote": "Inferred 35.2 1.05 1.19",
+      "confidence": 0.5
+    }
+  ]
+}

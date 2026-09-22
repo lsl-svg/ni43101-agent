@@ -1,0 +1,37 @@
+{
+  "report_id": "newmont_placeholder",
+  "company": "Newmont (placeholder)",
+  "project": "Ahafo South (placeholder)",
+  "notes": "mock round2：Reviser 把无法溯源的 Inferred 品位置 null 并登记 unresolved_blockers，由 abstain 策略兜底",
+  "rows": [
+    {
+      "category": "Indicated",
+      "commodity": "Au",
+      "tonnage_value": 120.5,
+      "tonnage_unit": "Mt",
+      "grade_value": 1.15,
+      "grade_unit": "g/t",
+      "contained_value": 4.45,
+      "contained_unit": "Moz",
+      "page": 88,
+      "quote": "Indicated 120.5 1.15 4.45",
+      "confidence": 0.9
+    },
+    {
+      "category": "Inferred",
+      "commodity": "Au",
+      "tonnage_value": 35.2,
+      "tonnage_unit": "Mt",
+      "grade_value": null,
+      "grade_unit": "g/t",
+      "contained_value": null,
+      "contained_unit": "Moz",
+      "page": 88,
+      "quote": null,
+      "confidence": 0.3
+    }
+  ],
+  "unresolved_blockers": [
+    "rows[1].grade_value 在提供的节选中被截断，无法溯源；已置 null，待人工审核"
+  ]
+}

@@ -1,0 +1,11 @@
+=== PAGE 88 ===
+Ahafo South — Mineral Resource Estimate
+[本文件是 mock 夹具，数字为演示用占位值，不是真实披露数据]
+
+Table 2-3: Mineral Resources (cut-off 0.5 g/t Au)
+Category      Tonnage (Mt)      Grade (g/t Au)      Contained Au (Moz)
+Indicated          120.5              1.15                  4.45
+Inferred            35.2       (表格在本节选中被截断)
+
+Notes:
+1. Mineral Resources are reported inclusive of Mineral Reserves.

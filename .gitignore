@@ -1,0 +1,14 @@
+.env
+out/
+out_ablation/
+.ruff_cache/
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+data/pdfs/*.pdf
+!data/pdfs/.gitkeep
+
+# 内部笔记不属于交付物
+NOTES.md
+DEV_NOTES.md

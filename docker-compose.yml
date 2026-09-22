@@ -1,0 +1,15 @@
+# 一条命令即可完整验证（不需要 API Key，走 mock 夹具）：
+#   docker compose run --rm agent python -m ni43101.cli mock
+# 接了真实模型后跑真数据：
+#   docker compose run --rm agent python -m ni43101.cli run --all
+#   docker compose run --rm agent python -m ni43101.cli eval
+services:
+  agent:
+    build: .
+    image: ni43101-agent:0.1.0
+    env_file:
+      - .env
+    volumes:
+      - ./:/app
+    working_dir: /app
+    command: ["python", "-m", "ni43101.cli", "mock"]

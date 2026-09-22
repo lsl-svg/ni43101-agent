@@ -1,0 +1,5 @@
+pydantic>=2.6
+openai>=1.30
+PyYAML>=6.0
+python-dotenv>=1.0
+pdfplumber>=0.11

@@ -1,0 +1,47 @@
+{
+  "report_id": "pilbara_placeholder",
+  "company": "Pilbara Minerals (placeholder)",
+  "project": "Pilgangoora (placeholder)",
+  "notes": "mock round2：按 CriticMaster 反馈修复——contained 重算、品位改回 1.00、引用改回原文",
+  "rows": [
+    {
+      "category": "Measured",
+      "commodity": "Li2O",
+      "tonnage_value": 45.0,
+      "tonnage_unit": "Mt",
+      "grade_value": 1.25,
+      "grade_unit": "%",
+      "contained_value": 562500,
+      "contained_unit": "t",
+      "page": 12,
+      "quote": "Measured 45.0 1.25 0.56",
+      "confidence": 0.9
+    },
+    {
+      "category": "Indicated",
+      "commodity": "Li2O",
+      "tonnage_value": 214.0,
+      "tonnage_unit": "Mt",
+      "grade_value": 1.17,
+      "grade_unit": "%",
+      "contained_value": 2503800,
+      "contained_unit": "t",
+      "page": 12,
+      "quote": "Indicated 214.0 1.17 2.50",
+      "confidence": 0.9
+    },
+    {
+      "category": "Inferred",
+      "commodity": "Li2O",
+      "tonnage_value": 100.0,
+      "tonnage_unit": "Mt",
+      "grade_value": 1.0,
+      "grade_unit": "%",
+      "contained_value": 1000000,
+      "contained_unit": "t",
+      "page": 12,
+      "quote": "Inferred 100.0 1.00 1.00",
+      "confidence": 0.9
+    }
+  ]
+}

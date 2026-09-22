@@ -1,0 +1,14 @@
+=== PAGE 12 ===
+Pilgangoora Operations — Mineral Resource Estimate
+[本文件是 mock 夹具，数字为演示用占位值，不是真实披露数据]
+
+Table 1: Pilgangoora Mineral Resource Estimate (cut-off 0.5% Li2O)
+Category      Tonnage (Mt)      Li2O Grade (%)      Contained Li2O (Mt)
+Measured            45.0              1.25                  0.56
+Indicated          214.0              1.17                  2.50
+Inferred           100.0              1.00                  1.00
+Total              359.0              1.13                  4.06
+
+Notes:
+1. Mineral Resources are reported inclusive of Mineral Reserves.
+2. Tonnages are rounded; contained metal is calculated from unrounded values.
